@@ -49,8 +49,10 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    h1 {
-        text-align:center;
+    .blocktext {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
     }
     #imagecode {
         border: 1px solid black;
@@ -68,7 +70,7 @@
     h2 {
         padding-top: 0px;
     }
-    .head-item {
+    .block-item {
             background-color: rgba(218, 227, 243, 0.6);
             box-shadow: 5px 5px 15px grey;
             color: black;
@@ -80,21 +82,10 @@
             margin: 50px 30px;
             padding: 17px 30px;
             vertical-align: top;
-            }   
-   /* .background-container {
-        background-image: url(https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding: 100px;
+    }   
+    .block-item:hover {
+        background-color: rgba(199, 208, 224, 0.6);
     }
-    .text-overlay {
-        background-color: rgba(218, 227, 243, 0.6);
-        padding: 20px;
-        top: 0px;
-        left: 0px;
-        display: block;
-    }*/
     .background-container {
         height: 60vh;
         width: 100vw;
@@ -105,18 +96,22 @@
     }
     .text-overlay {
         position: absolute;
-        height: 35%;
+        height: 40%;
         width: 100%;
-        top: 33%;
+        top: 50%;
         left: 0;
-        background-color: rgba(218, 227, 243, 0.6);
+        transform: translate(0, -50%);
+        background-color: rgba(218, 227, 243, 0.644);
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    .p-text-overlay {
+    .blocktext-overlay {
         margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
     }
 </style>
